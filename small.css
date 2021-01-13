@@ -1,0 +1,36 @@
+body {
+  background-color: #569be5;
+}
+
+h1 {
+  background-color: #62e477;
+  height: 50px;
+  max-width: 650px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 5px;
+}
+
+h2 {
+  display: grid;
+  text-decoration-line: underline;
+  padding-left: 150px;
+}
+
+#headerimage {
+  padding-left: 200px;
+  float: inline-end;
+}
+
+#nav {
+  padding-left: 190px;
+  background-color: #d8efdc;
+  max-width: 300px;
+  padding-right: 175px;
+}
+
+#homefooterp {
+  text-align: left;
+  padding-left: 160px;
+}
