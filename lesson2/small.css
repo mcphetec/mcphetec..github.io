@@ -1,0 +1,52 @@
+/*Great Vibes Font font-family: 'Great Vibes', cursive; */
+/* Bangers Font    font-family: "Bangers", cursive;*/
+
+/* Phone/Small View */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.Para {
+  font-family: "Bangers", cursive;
+  font-size: large;
+}
+.Header2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.Header3 {
+  text-align: center;
+}
+
+.images {
+  display: block;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet Views */
+@media only screen and (min-width: 37.5em) {
+  main {
+    grid-template-columns: 1fr, 1fr;
+  }
+
+  .RuleSection {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 60em) {
+  main {
+    grid-template-columns: 1fr, 1fr, 1fr;
+  }
+
+  #Fitts {
+    grid-column: span 1;
+    padding: 4em;
+  }
+}
