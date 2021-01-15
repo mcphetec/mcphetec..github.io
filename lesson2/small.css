@@ -2,11 +2,13 @@
 /* Bangers Font    font-family: "Bangers", cursive;*/
 
 /* Phone/Small View */
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
+body {
+  background-color: beige;
+}
+#container {
+  display: grid;
+}
 .Para {
   font-family: "Bangers", cursive;
   font-size: large;
@@ -19,6 +21,7 @@ main {
 
 .Header3 {
   text-align: center;
+  font-size: 40px;
 }
 
 .images {
@@ -27,26 +30,56 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+.Header2 {
+  color: green;
+}
+
+#White {
+  grid-column: 1/2;
+}
 
 /* Tablet Views */
-@media only screen and (min-width: 37.5em) {
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   main {
     grid-template-columns: 1fr, 1fr;
   }
 
-  .RuleSection {
-    grid-column: span 2;
+  .Header2 {
+    color: black;
+  }
+
+  #Rule {
+    grid-column: 3/4;
+    padding: 4em;
   }
 }
 
-/* Desktop View */
-@media only screen and (min-width: 60em) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   main {
     grid-template-columns: 1fr, 1fr, 1fr;
   }
 
+  .Header2 {
+    color: red;
+  }
+
   #Fitts {
-    grid-column: span 1;
+    grid-column: 4/5;
     padding: 4em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Header2 {
+    color: blue;
   }
 }
