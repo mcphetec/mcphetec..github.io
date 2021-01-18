@@ -53,7 +53,6 @@ body {
 #Rule {
   border-right: 1px solid black;
   border-left: 1px solid black;
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -79,11 +78,14 @@ body {
 
   #Rule {
     grid-column: 3/4;
-    padding: 4em;
     border: 1px solid black;
     padding-right: 1rem;
     padding-left: 1rem;
   }
+}
+
+#RuleHeader {
+  margin-top: ;
 }
 
 .source {
@@ -100,9 +102,12 @@ body {
     color: red;
   }
 
+  #RuleHeader {
+    padding-top: 5rem;
+  }
+
   #Fitts {
     grid-column: 4/5;
-    padding: 4em;
     border: 1px solid black;
     padding-right: 1rem;
     padding-left: 1rem;
