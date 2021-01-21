@@ -53,49 +53,20 @@
       </ul>
     </header>
     <br />
+
+    <footer>
+      <div>
+        <p id="homefooterp">
+          &copy; <span id="copyright"></span> | Cameron McPheters | Utah | WDD
+          230 |
+          <a id="byuilink" href="https://www.byui.edu/online" target="_blank"
+            >BYUI Online</a
+          >
+
+          <span id="updated"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="./js/homepage.js"></script>
   </body>
-
-  <footer onLoad="lastupdated()">
-    <div>
-      <p id="homefooterp">
-        &copy; 2021 | Cameron McPheters | Utah | WDD 230 |
-        <a id="byuilink" href="https://www.byui.edu/online" target="_blank"
-          >BYUI Online</a
-        >
-      </p>
-    </div>
-
-    <script>
-      function lastupdated() {
-        var string = document.lastmodified;
-
-        document.getElementById("homefooterp").innerHTML = string;
-      }
-    </script>
-
-    <!-- <script>
-      lastUpdated() {
-        let daynames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-        let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-      
-        let d= new Date();
-        let dayName = daynames[d.getDay()];
-        let monthName = months[d.getMonth()];
-        let year = d.getFullYear();
-        let fulldate = dayName + ", " + monthName + ", " + year;
-
-        document.getElementById("updated").textContent = fulldate;
-      }
-
-        try {
-          let options = {
-            weekday: "long",
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          };
-          document.getElementById("updated").textContent = new Date().toLocaleDateString("en-us", options);
-        }
-    </script> -->
-  </footer>
 </html>
