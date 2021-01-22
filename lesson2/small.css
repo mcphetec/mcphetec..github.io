@@ -79,7 +79,7 @@ body {
     padding-top: 10px;
   }
 
-  nav {
+  ul {
     display: none;
   }
 
@@ -105,7 +105,7 @@ body {
     grid-template-columns: 1fr, 1fr, 1fr;
   }
 
-  nav {
+  ul {
     display: none;
   }
 

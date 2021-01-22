@@ -1,0 +1,93 @@
+body {
+  background-color: #265a69;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-family: "Bangers", cursive;
+  font-size: large;
+  padding: 5px;
+}
+
+#Wlogo {
+  width: 50%;
+  border: 1px solid #faf3dd;
+  min-width: 15%;
+}
+
+#stylepage {
+  background-color: #faf3dd;
+  text-align: center;
+  box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li a {
+  display: block;
+  color: #13293d;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #faf3dd;
+}
+
+nav a:hover {
+  background-color: #faf3dd;
+  color: black;
+}
+
+/* Specifically for Color Page */
+#backgroundcolor {
+  background-color: white;
+  font-weight: bold;
+  color: #265a69;
+  max-width: 40%;
+}
+
+#h1h2color {
+  color: #faf3dd;
+}
+
+#textcolor {
+  background-color: white;
+  font-weight: bold;
+  color: #13293d;
+  max-width: 40%;
+}
+
+/* Specifically for Target Audience */
+.targetpersona {
+  color: #faf3dd;
+  font-size: 3rem;
+}
+
+.scenarios {
+  color: #13293d;
+  text-decoration: underline;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  letter-spacing: 2px;
+}
